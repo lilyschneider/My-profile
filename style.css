@@ -1,0 +1,117 @@
+/*Colors and fonts*/
+
+body{
+background-color: lightpink;
+color: black;
+font-family: arial;
+text-decoration-style: dashed;
+font-size: 15px;
+}
+
+h1{
+	color: black;
+	font-family:Times new roman;
+	text-transform: capitalize;
+	text-align: initial;
+	font-size: 32px;
+	text-align: center;
+}
+
+h2{
+    color: black;
+	font-family:Times new roman;
+	text-transform: capitalize;
+	text-align: initial;
+	font-size: 25px;
+	text-align: center
+}
+
+h3{
+	color: black;
+	font-family:Times new roman;
+	text-transform: capitalize;
+	text-align: initial;
+	font-size: 18px;
+	font-weight: darker;
+}
+
+a{
+	text-decoration: none;
+	color: darkblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+}
+
+div{
+	background: white;
+	border: 2px ;
+}
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+.card-white{
+	border-radius: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+    padding: 30px;
+    margin: 20px;
+    text-align: center
+    
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+ .btn-bleu{
+ 	background-color:lightblue;
+ 	color: white;
+ 	padding: 15px 20px;
+ 	border-radius: 7px;
+ }
+
+.btn-bleu:hover{
+	background-color: purple;
+	color: white;
+
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+ li{
+ 	display: inlist ;
+ }
+ .list-inline i{
+ 	font-size: 50px;
+ 	color: rgb(140, 140, 140);
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+.list-line li {
+	list-style: none;
+}
